@@ -1,26 +1,39 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import BandCard from "./components/BandCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import bands from "./bands.json";
 
 class App extends Component {
+
+  state = {
+    bands
+  };
+
+  removeBand = id => {
+
+    const bands = this.state.bands.filter(band => band.id !== id);
+
+    this.setState({ bands });
+  };
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Wrapper>
+        <Title>Bands List</Title>
+        {this.state.bands.map(band => (
+          <BandCard
+            removeBand={this.removeBand}
+            id={band.id}
+            key={band.id}
+            name={band.name}
+            image={band.image}
+            genre={band.genre}
+            origin={band.origin}
+          />
+        ))}
+      </Wrapper>
     );
   }
 }
