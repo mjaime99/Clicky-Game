@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import BandCard from "./components/BandCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
 import bands from "./bands.json";
+import HelloNav from "./components/NavBar/HelloNav";
+import Counter from "./components/Counter";
 
 class App extends Component {
 
@@ -21,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Bands List</Title>
+        <HelloNav />
         {this.state.bands.map(band => (
           <BandCard
             removeBand={this.removeBand}
@@ -36,6 +37,11 @@ class App extends Component {
       </Wrapper>
     );
   }
+
+  Counter() {
+    return <Counter />;
+  }
+
 }
 
 export default App;

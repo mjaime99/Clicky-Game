@@ -6,24 +6,12 @@ function BandCard(props) {
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
+        </div>
+      <div className="content" class="row justify-content-center">
+        <button type="button" class="btn btn-danger"><span onClick={() => props.removeBand(props.id)} className="remove">Click Here!</span></button>
       </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Genre:</strong> {props.genre}
-          </li>
-          <li>
-            <strong>Origin:</strong> {props.origin}
-          </li>
-        </ul>
-      </div>
-      <span onClick={() => props.removeBand(props.id)} className="remove">
-        𝘅
-      </span>
     </div>
+    
   );
 }
 

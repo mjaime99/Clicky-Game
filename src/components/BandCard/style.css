@@ -13,7 +13,7 @@
   height: 60%;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background: grey;
 }
 .card > .img-container > img {
   width: 60%
@@ -31,6 +31,10 @@
 
 .card > .content > ul > li {
   margin-top: 18px;
+}
+
+.btn {
+  text-align: center;
 }
 
 .card > .remove {
