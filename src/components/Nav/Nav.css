@@ -1,0 +1,31 @@
+nav {
+  width: 100%;
+  font-size: 3rem;
+  color: goldenrod;
+  margin-bottom: 10px;
+  background-color: rgb(53, 5, 5);
+  height: auto;
+}
+
+a {
+  font-family: 'Metal Mania', cursive;
+  color:goldenrod
+}
+
+a:hover {
+  color: #fed420;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 15px 0;
+  width: 25%;
+  font-family: 'Metal Mania', cursive;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+

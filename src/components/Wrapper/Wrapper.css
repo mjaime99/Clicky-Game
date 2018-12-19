@@ -1,0 +1,12 @@
+.wrapper {
+  background: rgb(175, 175, 175);
+  background-image: url('https://uaespotlight.files.wordpress.com/2013/04/metallica.jpg');
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+  padding-bottom: 50px;
+}

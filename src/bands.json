@@ -1,62 +1,63 @@
+
 [
   {
     "id": 1,
-    "name": "Metallica",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Metallica_logo.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Metallica_logo.png",
+    "clicked": false
   },
   {
     "id": 2,
-    "name": "Slayer",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Slayer_wordmark.svg/2000px-Slayer_wordmark.svg.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Slayer_wordmark.svg/2000px-Slayer_wordmark.svg.png",
+    "clicked": false
   },
   {
     "id": 3,
-    "name": "Megadeth",
-    "image": "https://ua-1.cdn-fullscreendirect.com/10330/2018_0208_10330_7987.png"
+    "image": "https://ua-1.cdn-fullscreendirect.com/10330/2018_0208_10330_7987.png",
+    "clicked": false
   },
   {
     "id": 4,
-    "name": "Pantera",
-    "image": "https://fanart.tv/fanart/music/541f16f5-ad7a-428e-af89-9fa1b16d3c9c/hdmusiclogo/pantera-539db9e9cdefd.png"
+    "image": "https://fanart.tv/fanart/music/541f16f5-ad7a-428e-af89-9fa1b16d3c9c/hdmusiclogo/pantera-539db9e9cdefd.png",
+    "clicked": false
   },
   {
     "id": 5,
-    "name": "Lamb of God",
-    "image": "https://fanart.tv/fanart/music/298909e4-ebcb-47b8-95e9-cc53b087fc65/hdmusiclogo/lamb-of-god-538b2f501d5dd.png"
+    "image": "https://fanart.tv/fanart/music/298909e4-ebcb-47b8-95e9-cc53b087fc65/hdmusiclogo/lamb-of-god-538b2f501d5dd.png",
+    "clicked": false
   },
   {
     "id": 6,
-    "name": "Korn",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Korn_Logo_Black.svg/2000px-Korn_Logo_Black.svg.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Korn_Logo_Black.svg/2000px-Korn_Logo_Black.svg.png",
+    "clicked": false
   },
   {
     "id": 7,
-    "name": "Limp Bizkit",
-    "image": "https://www.logolynx.com/images/logolynx/0d/0df9e1ac45b0433137f3f8374feb29bc.png"
+    "image": "https://www.logolynx.com/images/logolynx/0d/0df9e1ac45b0433137f3f8374feb29bc.png",
+    "clicked": false
   },
   {
     "id": 8,
-    "name": "HIM",
-    "image": "https://vignette.wikia.nocookie.net/him/images/2/2f/HIM_logo.png/revision/latest?cb=20080611011242"
+    "image": "https://vignette.wikia.nocookie.net/him/images/2/2f/HIM_logo.png/revision/latest?cb=20080611011242",
+    "clicked": false
   },
   {
     "id": 9,
-    "name": "Slipknot",
-    "image": "https://fanart.tv/fanart/music/a466c2a2-6517-42fb-a160-1087c3bafd9f/hdmusiclogo/slipknot-5390c96d06d44.png"
+    "image": "https://fanart.tv/fanart/music/a466c2a2-6517-42fb-a160-1087c3bafd9f/hdmusiclogo/slipknot-5390c96d06d44.png",
+    "clicked": false
   },
   {
     "id": 10,
-    "name": "System of a Down",
-    "image": "https://www.inkspired.ro/media/catalog/product/cache/1/image/480x480/84dd77049df4a9d97eb2a36f8612ee6f/S/y/System_o_A_Down_-_Logo.png"
+    "image": "https://www.inkspired.ro/media/catalog/product/cache/1/image/480x480/84dd77049df4a9d97eb2a36f8612ee6f/S/y/System_o_A_Down_-_Logo.png",
+    "clicked": false
   },
   {
     "id": 11,
-    "name": "Ozzy Osbourne",
-    "image": "https://pngimage.net/wp-content/uploads/2018/06/ozzy-osbourne-logo-png-5.png"
+    "image": "https://pngimage.net/wp-content/uploads/2018/06/ozzy-osbourne-logo-png-5.png",
+    "clicked": false
   },
   {
     "id": 12,
-    "name": "Trivium",
-    "image": "https://i.imgur.com/jH57Z8F.png"
+    "image": "https://i.imgur.com/jH57Z8F.png",
+    "clicked": false
   }
 ]
